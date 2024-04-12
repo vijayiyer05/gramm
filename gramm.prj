@@ -36,7 +36,8 @@
 .git
 paper
 .gitignore
-createMLTBX.m</param.exclude.filters>
+createMLTBX.m
+.DS_Store</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;examples&gt;
@@ -89,13 +90,14 @@ createMLTBX.m</param.exclude.filters>
          &lt;file type="image"&gt;/html/examples_42.png&lt;/file&gt;
          &lt;file type="image"&gt;/html/examples_43.png&lt;/file&gt;
          &lt;file type="image"&gt;/html/examples_44.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/examples_45.png&lt;/file&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
 &lt;/examples&gt;</param.examples>
     <param.demosxml />
     <param.apps />
     <param.registered.apps />
-    <param.docs />
+    <param.docs>${PROJECT_ROOT}/info.xml</param.docs>
     <param.getting.started.guide>${PROJECT_ROOT}/doc/GettingStarted.mlx</param.getting.started.guide>
     <param.matlabpath.excludes />
     <param.javaclasspath.excludes />
@@ -130,7 +132,6 @@ createMLTBX.m</param.exclude.filters>
       <param.demosxml />
       <param.apps />
       <param.registered.apps />
-      <param.docs />
       <param.matlabpath.excludes />
       <param.javaclasspath.excludes />
       <param.exported.on.package />
@@ -165,6 +166,7 @@ createMLTBX.m</param.exclude.filters>
       <file>${PROJECT_ROOT}/functionSignatures.json</file>
       <file>${PROJECT_ROOT}/gramm cheat sheet.pdf</file>
       <file>${PROJECT_ROOT}/html</file>
+      <file>${PROJECT_ROOT}/info.xml</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
@@ -193,7 +195,7 @@ createMLTBX.m</param.exclude.filters>
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>13.4.1</osver>
+      <osver>13.6.6</osver>
       <os32>true</os32>
       <os64>false</os64>
       <arch>maci64</arch>

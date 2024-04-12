@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><meta name="generator" content="MATLAB 2023b"><title>gramm functions</title><style type="text/css">.rtcContent { padding: 30px; } .S0 { margin: 3px 10px 5px 4px; padding: 0px; line-height: 28.8px; min-height: 0px; white-space: pre-wrap; color: rgb(192, 76, 11); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 24px; font-weight: 400; text-align: left;  }
+.S1 { margin: 2px 10px 9px 4px; padding: 0px; line-height: 21px; min-height: 0px; white-space: pre-wrap; color: rgb(33, 33, 33); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 14px; font-weight: 400; text-align: left;  }
+.S2 { margin: 20px 10px 5px 4px; padding: 0px; line-height: 20px; min-height: 0px; white-space: pre-wrap; color: rgb(33, 33, 33); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 20px; font-weight: 700; text-align: left;  }
+.S3 { margin: 3px; border: 1px solid rgb(191, 191, 191); border-collapse: collapse;  }
+.S4 { background-color: rgba(0, 0, 0, 0);  }
+.S5 { border: 1px solid rgb(191, 191, 191); vertical-align: top;  }
+.S6 { margin: 2px 10px 2px 4px; padding: 0px; line-height: 21px; min-height: 0px; white-space: break-spaces; color: rgb(33, 33, 33); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 14px; font-weight: 400; text-align: left;  }
+.S7 { margin: 15px 10px 5px 4px; padding: 0px; line-height: 18px; min-height: 0px; white-space: pre-wrap; color: rgb(33, 33, 33); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 17px; font-weight: 700; text-align: left;  }</style></head><body><div class = rtcContent><h1  class = 'S0'><span>gramm functions</span></h1><div  class = 'S1'><span>The functions are presented in the order that they would typically be used</span></div><h2  class = 'S2'><span>Providing data to gramm</span></h2><table  class = 'S3'><col/><col/><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><a href = "doc/functions/gramm_doc.html"><span>gramm</span></a></div></td><td  class = 'S5'><div  class = 'S6'><span>this function creates a gramm object, it's always the first step</span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><a href = "http://doc/functions/facet_grid_doc.mlx"><span>facet_grid</span></a></div></td><td  class = 'S5'><div  class = 'S6'><span>give gramm row and column grouping data to create subplots arranged in a grid</span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><a href = "http://doc/functions/facet_wrap_doc.mlx"><span>facet_wrap</span></a></div></td><td  class = 'S5'><div  class = 'S6'><span>give gramm grouping data to create subplots arranged in a flowing pattern</span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>fig</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>update</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr></table><h2  class = 'S2'><span>Graphic layers</span></h2><h3  class = 'S7'><span>Simple data plotting layers</span></h3><table  class = 'S3'><col style="width: 10.96875px;" /><col/><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_bar</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_count</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_interval</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_jitter</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_label</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_line</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_point</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_raster</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_swarm</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr></table><h3  class = 'S7'><span>Statistical visualization layers</span></h3><table  class = 'S3'><col style="width: 74.05078125px;" /><col/><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>stat_bin</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>stat_bin2d</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr></table><h3  class = 'S7'><span>Decorative layers</span></h3><table  class = 'S3'><col/><col/><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_abline</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_funline</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_hline</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_polygon</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>geom_vline</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr></table><h2  class = 'S2'><span>Changing gramm settings</span></h2><table  class = 'S3'><col style="width: 74.05078125px;" /><col/><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>set_color_options</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>set_continuous_color</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span></span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr></table><h2  class = 'S2'><span>Do the actual plotting</span></h2><table  class = 'S3'><col/><col/><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>draw</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>export</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr><tr  class = 'S4'><td  class = 'S5'><div  class = 'S6'><span>redraw</span></div></td><td  class = 'S5'><div  class = 'S6'><span></span></div></td></tr></table><div  class = 'S1'></div>
+<br>
+<!-- 
+##### SOURCE BEGIN #####
+%% gramm functions
+% The functions are presented in the order that they would typically be used
+%% Providing data to gramm
+%% 
+% <doc/functions/gramm_doc.mlx gramm>
+%% 
+% this function creates a gramm object, it's always the first step
+%% 
+% <http://doc/functions/facet_grid_doc.mlx facet_grid>
+%% 
+% give gramm row and column grouping data to create subplots arranged in a grid
+%% 
+% <http://doc/functions/facet_wrap_doc.mlx facet_wrap>
+%% 
+% give gramm grouping data to create subplots arranged in a flowing pattern
+%% 
+% fig
+%% 
+% 
+%% 
+% update
+%% 
+% 
+%% Graphic layers
+% Simple data plotting layers
+%% 
+% geom_bar
+%% 
+% 
+%% 
+% geom_count
+%% 
+% 
+%% 
+% geom_interval
+%% 
+% 
+%% 
+% geom_jitter
+%% 
+% 
+%% 
+% geom_label
+%% 
+% 
+%% 
+% geom_line
+%% 
+% 
+%% 
+% geom_point
+%% 
+% 
+%% 
+% geom_raster
+%% 
+% 
+%% 
+% geom_swarm
+%% 
+% 
+% Statistical visualization layers
+%% 
+% stat_bin
+%% 
+% 
+%% 
+% stat_bin2d
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+% Decorative layers
+%% 
+% geom_abline
+%% 
+% 
+%% 
+% geom_funline
+%% 
+% 
+%% 
+% geom_hline
+%% 
+% 
+%% 
+% geom_polygon
+%% 
+% 
+%% 
+% geom_vline
+%% 
+% 
+%% Changing gramm settings
+%% 
+% set_color_options
+%% 
+% 
+%% 
+% set_continuous_color
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% 
+% 
+%% Do the actual plotting
+%% 
+% draw
+%% 
+% 
+%% 
+% export
+%% 
+% 
+%% 
+% redraw
+%% 
+% 
+%% 
+%
+##### SOURCE END #####
+-->
+</div></body></html>
